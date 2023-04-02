@@ -42,7 +42,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'The Odin Project: Linkedlist exercises',
+      title: 'The Odin Project: Battleship!',
       template: './src/index.html',
     }),
   ],
