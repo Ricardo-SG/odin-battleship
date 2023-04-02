@@ -1,0 +1,19 @@
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 400px;
+    border: 2px solid #333;
+  
+    .square {
+      width: 40px;
+      height: 40px;
+      border: 1px solid #999;
+      background-color: #eee;
+      cursor: pointer;
+  
+      &:hover {
+        background-color: #ddd;
+      }
+    }
+  }
