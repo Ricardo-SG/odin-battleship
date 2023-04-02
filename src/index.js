@@ -1,5 +1,5 @@
 import './styles/board.scss';
-import Gameboard from './code/Gameboard';
+import { Gameboard, Ship } from './Gameboard.js';
 
 const playerBoard = new Gameboard(10);
 const computerBoard = new Gameboard(10);
